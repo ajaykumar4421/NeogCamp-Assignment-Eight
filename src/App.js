@@ -17,7 +17,6 @@ export default function App() {
     "🤷🏾": "I don't know"
   };
   const emojis = Object.keys(emojiDictionary);
-  console.log(emojis);
 
   function clickEventHandler(emoji) {
     setUserInput(emojiDictionary[emoji]);
